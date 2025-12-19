@@ -15,36 +15,26 @@ public class H2_main {
 		 A.enterBus(Carla);
 		 A.enterBus(Max);
 		 
-		 System.out.println(A.passengers.toString());
 		 
 		 A.findPassengersWithoutTickets();
 		 
-		 System.out.println(A.passengers.toString());
 		 
 		 A.nextStop();
 		 
-		 System.out.println(A.passengers.toString());
 		 
 		 Bus B = new Bus(); 
 		 
 		 String[] passengerNames = {"Anna", "Carla"};
 		 A.transferPassengers(B, passengerNames);
 		 
-		 System.out.println(A.passengers.toString());
-		 System.out.println(B.passengers.toString());
-		 
 		 A.nextStop();
 		 A.nextStop();
 		 A.nextStop();
 		 
-		  
-		 
-		 System.out.println(A.passengers.toString());
 		 
 		 A.nextStop();
 		 A.nextStop();
 		 
-		 System.out.println(A.passengers.toString());
 
 	}
 

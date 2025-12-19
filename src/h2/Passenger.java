@@ -13,8 +13,8 @@ public class Passenger {
 		this.ticket = ticket;
 	}
 	
-	public String toString() {
+	/*public String toString() {
 		return "name: " + name + " planned: " + planned + " visited: " + visited + " ticket: " + ticket;
-	}
+	}*/
 
 }
